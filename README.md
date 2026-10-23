@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/cover.jpg" alt="Lucas Resende Tavares, Sales Engineer na RavenDB" width="100%">
+<img src="assets/cover.svg" alt="Lucas Resende Tavares, Sales Engineer na RavenDB. Avaliar, provar e adotar o RavenDB. Português e English" width="100%">
 
 <br>
 
