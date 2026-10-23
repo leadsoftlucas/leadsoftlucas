@@ -46,7 +46,7 @@ Programo desde **2007**, profissionalmente desde **2009**, e desde **2018** só 
 
 | 🔢 | ⏱️ | ⚡ | 🧠 |
 |:---:|:---:|:---:|:---:|
-| **17**<br>pacotes .NET<br>open source | **208 mil+**<br>downloads<br>no NuGet | **45 dias**<br>o cliente queria 30,<br>eu pedi 45 e entreguei em 45 | **4 h → 30 s**<br>um relatório que ficava<br>para o dia seguinte |
+| **17**<br>pacotes .NET<br>open source | **208 mil+**<br>downloads<br>no NuGet | **1 sistema inteiro**<br>em 45 dias, com RavenDB<br>aprendido do zero | **4 h → 30 s**<br>um relatório que ficava<br>para o dia seguinte |
 
 </div>
 
@@ -55,7 +55,7 @@ Programo desde **2007**, profissionalmente desde **2009**, e desde **2018** só 
 | Procedures críticas | **4–8 h → 40 s** | Reestruturação lógica, *table functions* e fim dos cursores. Sem mudar a modelagem nem criar índices |
 | DaaS no setor automotivo | **1,8 min → 600 ms** | Recomendação remodelada em RavenDB com Full-Text Search (o tempo inclui autenticação) |
 | Relatório de metas | **≈ 4 h → ≈ 30 s** | Nova estratégia de consulta |
-| PetraSync (cliente nos EUA) | **30 → 45 dias, entregue em 45** | RavenDB aprendido do zero e arquitetura refeita em documentos |
+| PetraSync (cliente nos EUA) | **Sistema crítico entregue em 45 dias** | Sistema em más condições, prazo pedido de 30 dias. Fiz o laudo, propus 45 com a arquitetura refeita em documentos, aprendi RavenDB do zero e entreguei no dia combinado |
 | Delphi → .NET (Agrotis) | **equipe treinada em ≈ 6 meses** | Transição de um time inteiro e integração com SAP |
 
 ---
@@ -196,7 +196,7 @@ I'm a **Sales Engineer and Solutions Architect at [RavenDB](https://ravendb.net)
 | Critical procedures | **4–8 h → 40 s** (logical restructuring, no model change, no new indexes) |
 | Automotive DaaS | **1.8 min → 600 ms** (remodeled on RavenDB with Full-Text Search, auth included) |
 | Goal forecasting report | **≈ 4 h → ≈ 30 s** |
-| PetraSync (US client) | **They wanted 30 days. I asked for 45 and delivered in 45** |
+| PetraSync (US client) | **Critical system delivered in 45 days**: the system was in bad shape and the client asked for 30; I wrote the assessment, proposed 45 with the architecture rebuilt as documents, learned RavenDB from scratch and delivered on the agreed day |
 | Delphi → .NET (Agrotis) | **Whole team trained in ≈ 6 months** |
 
 ### 🛠️ Code you can run
