@@ -210,7 +210,7 @@ Escalo, faço trilhas, ouço rock e metal, escrevo ficção científica e tenho 
 
 <br>
 
-### 👋🐦‍⬛ Hi, I'm Lucas
+### 🐦‍⬛ Hi, I'm Lucas
 
 > [!IMPORTANT]
 > **In one sentence:** I'm the engineer inside RavenDB who helps teams find out whether RavenDB solves their problem, **proves it in code** and supports the adoption. I work with customers worldwide, focused on the Americas and also covering Europe and Oceania. If it doesn't fit, I'll say so.
