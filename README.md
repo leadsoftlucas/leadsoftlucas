@@ -1,10 +1,11 @@
 <div align="center">
 
-<img src="assets/cover.jpg" alt="Lucas Resende Tavares, Sales Engineer RavenDB. Sua ponte com o RavenDB no Brasil" width="100%">
+<img src="assets/cover.jpg" alt="Lucas Resende Tavares, Sales Engineer na RavenDB" width="100%">
 
 <br>
 
-### Sales Engineer & Arquiteto de Soluções na [RavenDB](https://ravendb.net) · a ponte do banco no Brasil 🌉
+### Sales Engineer & Arquiteto de Soluções na [RavenDB](https://ravendb.net)
+**Ajudo times brasileiros a avaliar, provar e adotar o RavenDB**
 
 *Primeiro o dado, depois o código.*
 
@@ -21,17 +22,17 @@
 
 ---
 
-## 👋 Oi, eu sou o Lucas
+## 👋🐦‍⬛ Oi, eu sou o Lucas
 
 > [!IMPORTANT]
-> **Em uma frase:** ajudo empresas a **adotar o RavenDB com segurança**. Avalio o seu caso, provo em código e, quando faz sentido, conecto você ao time. Já transformei relatórios de horas em segundos e liguei IA em sistemas legados **sem migrar o banco**.
+> **Em uma frase:** sou o engenheiro que, dentro da RavenDB, ajuda times brasileiros a descobrir se o RavenDB resolve o problema deles, **prova isso em código** e acompanha a adoção. Se não resolver, eu digo.
 
 `.NET` · `C#` · `RavenDB` · `SQL Server` · `AWS` · `Azure` · `Google` · `TypeScript` · `React`
 
-Programo desde **2007**, profissionalmente desde **2009**, e desde **2018** só projeto software com **RavenDB**. Fundei e liderei a **LeadSoft** (2018–2025), software house de Curitiba e parceira oficial do RavenDB no Brasil. Hoje estou do outro lado do balcão: no time global do RavenDB, ajudando times a **decidir, adotar e escalar**.
+Programo desde **2007**, profissionalmente desde **2009**, e desde **2018** só projeto software com **RavenDB**. Fundei e liderei a **LeadSoft** (2018–2025), software house de Curitiba e parceira oficial do RavenDB no Brasil. Em 2025 passei para o lado de quem fabrica o banco, como **Sales Engineer e Arquiteto de Soluções**.
 
 > [!NOTE]
-> Não defendo o RavenDB porque trabalho lá. Trabalho lá porque o escolhi durante quase uma década, em problemas reais de produção. E quando o RavenDB não resolve, eu digo.
+> Não defendo o RavenDB porque trabalho lá. Trabalho lá porque o escolhi, em problemas reais de produção, sete anos antes de ser contratado. E quando o RavenDB não resolve, eu digo.
 
 ---
 
@@ -43,7 +44,7 @@ Programo desde **2007**, profissionalmente desde **2009**, e desde **2018** só 
 | 🧱 **Modelagem a partir do negócio** | Documentos, índices e performance em produção: modelar pelo domínio, não pela tabela |
 | 🔄 **Migração de legado** | Do relacional (ou outro NoSQL) para documentos, com **CDC e ETL**, com o sistema atual de pé |
 | 🤖 **IA sobre os seus dados** | Busca textual e **vetorial**, embeddings e agentes na mesma camada de dados, sem abrir mais um produto |
-| 🌉 **Ponte com o time RavenDB** | Português, no seu fuso, com linha direta com a engenharia e o time comercial |
+| 🇧🇷 **Português, no seu fuso** | Conversa direta com quem constrói o RavenDB: o seu caso chega à engenharia e, quando é comercial, ao time de vendas |
 
 ---
 
@@ -53,17 +54,19 @@ Programo desde **2007**, profissionalmente desde **2009**, e desde **2018** só 
 
 | 🔢 | ⏱️ | ⚡ | 🧠 |
 |:---:|:---:|:---:|:---:|
-| **17**<br>pacotes .NET<br>open source | **208 mil+**<br>downloads<br>no NuGet | **1 sistema inteiro**<br>em 45 dias, com RavenDB<br>aprendido do zero | **4 h → 30 s**<br>um relatório que ficava<br>para o dia seguinte |
+| **17**<br>pacotes .NET<br>open source | **208 mil+**<br>downloads<br>no NuGet | **1 sistema inteiro**<br>em 45 dias, com RavenDB<br>aprendido do zero | **1,8 min → 600 ms**<br>uma consulta remodelada<br>em RavenDB |
 
 </div>
 
-| Caso | Antes → Depois | Como |
-|---|---|---|
-| Procedures críticas | **4–8 h → 40 s** | Reestruturação lógica, *table functions* e fim dos cursores. Sem mudar a modelagem nem criar índices |
-| DaaS no setor automotivo | **1,8 min → 600 ms** | Recomendação remodelada em RavenDB com Full-Text Search (o tempo inclui autenticação) |
-| Relatório de metas | **≈ 4 h → ≈ 30 s** | Nova estratégia de consulta |
-| PetraSync (cliente nos EUA) | **Sistema crítico entregue em 45 dias** | Sistema em más condições, prazo pedido de 30 dias. Fiz o laudo, propus 45 com a arquitetura refeita em documentos, aprendi RavenDB do zero e entreguei no dia combinado |
-| Delphi → .NET (Agrotis) | **equipe treinada em ≈ 6 meses** | Transição de um time inteiro e integração com SAP |
+Nem todo ganho abaixo veio do RavenDB: parte é SQL Server bem trabalhado. Isso importa, porque quem já resolveu lentidão em banco relacional sabe separar problema de consulta de problema de banco.
+
+| Caso | Antes → Depois | Tecnologia | Como |
+|---|---|---|---|
+| Consulta de recomendação técnica (DaaS, dados como serviço, setor automotivo) | **1,8 min → 600 ms** | RavenDB | Remodelagem com Full-Text Search. O tempo inclui a autenticação |
+| PetraSync (cliente nos EUA) | **Sistema crítico entregue em 45 dias** | RavenDB, .NET | Sistema em más condições, prazo pedido de 30 dias. Fiz o laudo, propus 45 com a arquitetura refeita em documentos, aprendi RavenDB do zero e entreguei no dia combinado |
+| Procedures críticas | **4–8 h → 40 s** | SQL Server | Reestruturação lógica com *table functions* e fim dos cursores, sem mudar a modelagem nem criar índices |
+| Relatório de previsão de metas | **≈ 4 h → ≈ 30 s** | SQL Server | Nova estratégia de consulta: o relatório deixou de ficar para o dia seguinte |
+| Delphi → .NET (Agrotis) | **Equipe treinada em ≈ 6 meses** | .NET, SAP | Transição de um time inteiro e integração com SAP |
 
 ---
 
@@ -77,7 +80,6 @@ Programo desde **2007**, profissionalmente desde **2009**, e desde **2018** só 
 | [**ravendb-sales-assistant-demo**](https://github.com/leadsoftlucas/ravendb-sales-assistant-demo) | Assistente de vendas com os recursos de IA do RavenDB |
 | [**ravendb-demo**](https://github.com/leadsoftlucas/ravendb-demo) | Três recursos do RavenDB que o diferenciam de outros bancos |
 | [**lurta-clean-ravendb-api**](https://github.com/leadsoftlucas/lurta-clean-ravendb-api) | Web API REST em .NET 10 como modelo de **Clean Architecture com RavenDB** |
-| [**ravendb-raspberry-pi-sample**](https://github.com/leadsoftlucas/ravendb-raspberry-pi-sample) | RavenDB rodando em um Raspberry Pi |
 
 ### 🎓 Workshops do TDC São Paulo 2024
 
@@ -88,15 +90,15 @@ Programo desde **2007**, profissionalmente desde **2009**, e desde **2018** só 
 
 ### 🏢 Organização [LeadSoft](https://github.com/LeadSoft-Solucoes-Web)
 
-A maior parte do meu código aberto vive na organização da LeadSoft, a software house que fundei e liderei até 2025. São as bibliotecas .NET que usávamos em todos os projetos, publicadas para qualquer um reaproveitar:
+A maior parte do meu código aberto vive na organização da LeadSoft, a software house que fundei e liderei até 2025. São bibliotecas .NET que a LeadSoft usava nos próprios projetos e abriu para qualquer um reaproveitar:
 
 | Repositório | O que é |
 |---|---|
 | [**leadsoft-global-domain**](https://github.com/LeadSoft-Solucoes-Web/leadsoft-global-domain) | Domínio global com entidades e classes úteis, para não reescrever o básico em cada projeto |
 | [**leadsoft-adapter-brasilapi**](https://github.com/LeadSoft-Solucoes-Web/leadsoft-adapter-brasilapi) · [**viacep**](https://github.com/LeadSoft-Solucoes-Web/leadsoft-adapter-viacep) · [**ibge**](https://github.com/LeadSoft-Solucoes-Web/leadsoft-adapter-ibge) | Adaptadores .NET leves e testáveis para APIs públicas brasileiras, sobre `IHttpClientFactory` |
 | [**leadsoft-adapter-aws**](https://github.com/LeadSoft-Solucoes-Web/leadsoft-adapter-aws) · [**azure**](https://github.com/LeadSoft-Solucoes-Web/leadsoft-adapter-azure) · [**google**](https://github.com/LeadSoft-Solucoes-Web/leadsoft-adapter-google) | Integrações com AWS (S3 e Secrets Manager), Azure (SSO, Speech-to-Text e OCR) e Google (reCAPTCHA, SSO e Workspace), em NuGets separados e prontos para injeção de dependência |
-| [**leadsoft-library**](https://github.com/LeadSoft-Solucoes-Web/leadsoft-library) | O "canivete suíço": métodos de extensão, middlewares e ferramentas |
-| [**leadsoft-react-ui-kit**](https://github.com/LeadSoft-Solucoes-Web/leadsoft-react-ui-kit) | Kit de componentes React em TypeScript |
+| [**leadsoft-library**](https://github.com/LeadSoft-Solucoes-Web/leadsoft-library) | O "canivete suíço" .NET: métodos de extensão, middlewares e ferramentas. Sucessor do `LeadSoft.Common.Library` |
+| [**leadsoft-react-ui-kit**](https://github.com/LeadSoft-Solucoes-Web/leadsoft-react-ui-kit) | Componentes React em TypeScript (seletor de cores, animações e mais) |
 
 <details>
 <summary><b>📦 17 pacotes .NET open source (<code>LeadSoft.*</code>) · mais de 208 mil downloads</b></summary>
@@ -118,14 +120,29 @@ Bibliotecas comuns, acesso a dados e adaptadores prontos para o dia a dia de que
 
 ---
 
-## 🎤 Palcos e vídeos
+## ✍️ O que eu defendo por escrito
 
-| Quando | Onde | O quê |
+Escrevo no [LinkedIn](https://www.linkedin.com/in/lucasrtavares/recent-activity/articles/), em português, para devs e para quem decide: o custo real de dados, arquitetura e IA. Todos defendem a mesma ideia, que explico mais abaixo em [Em que eu acredito](#-em-que-eu-acredito).
+
+| Artigo | A tese em uma linha |
+|---|---|
+| 🤖 [**Ninguém te disse que dá pra ter IA sem migrar seu banco de dados**](https://www.linkedin.com/pulse/ningu%C3%A9m-te-disse-que-d%C3%A1-pra-ter-ia-sem-migrar-seu-de-resende-tavares-jrzxf/) | Simulei um legado que ninguém pode desligar (SQL Server com anos de histórico) e liguei IA, busca inteligente e um agente em cima dele, ao vivo, com o CDC do RavenDB, sem tocar no que já existia. A [demo está aberta](https://github.com/leadsoftlucas/ravendb-cdc-demo) |
+| 🔎 [**RavenDB + AI: segmentação unificada em tempo real**](https://www.linkedin.com/pulse/ravendb-ai-segmenta%C3%A7%C3%A3o-unificada-em-tempo-real-e-por-resende-tavares-r7pnf/) | Documentos, busca textual e busca vetorial na mesma consulta. Manter banco, motor de busca e vetor em três produtos custa caro |
+| 📈 [**Lições de quem processa 4% do PIB**](https://www.linkedin.com/pulse/li%C3%A7%C3%B5es-de-quem-processa-4-do-pib-por-que-agilidade-%C3%A9-resende-tavares-4slnf/) | Em escala onde indisponibilidade tem preço imediato, agilidade não é discurso: é o que separa o sistema que aguenta do que trava |
+| 🧩 [**Quando simplificar exige coragem: o preço oculto da complexidade**](https://www.linkedin.com/pulse/quando-simplificar-exige-coragem-o-pre%C3%A7o-oculto-das-resende-tavares-kyehf/) | Cada ferramenta a mais cobra um preço que não aparece na fatura: time refém, integrações frágeis. Simplificar é decisão técnica |
+| 💻 [**Pare de usar class para tudo no C#**](https://www.linkedin.com/pulse/pare-de-usar-class-para-tudo-c-um-guia-simples-e-que-resende-tavares-tmg4f/) | Quando `class`, `struct` e `record` realmente mudam alocação, performance e o desenho da aplicação |
+| 🧭 [**Por quê falo tanto sobre RavenDB**](https://www.linkedin.com/pulse/por-qu%C3%AA-falo-tanto-sobre-ravendb-lucas-resende-tavares-96yef/) | O que me fez sair do relacional por convicção, e não por modismo |
+
+---
+
+## 🎤 Eventos, palestras e vídeos
+
+| Quando | Evento | Minha participação |
 |---|---|---|
 | 02/2024 | **Developer Week**, San Francisco 🇺🇸 | Encontro com o time RavenDB |
-| 09/2024 | **TDC São Paulo** 🇧🇷 | Palestra e workshop de modelagem NoSQL |
-| 11/2025 | **Microsoft Ignite**, San Francisco 🇺🇸 | Primeira feira no time RavenDB |
-| 05/2026 | **TechEx North America**, San Jose 🇺🇸 | Demos ao vivo no estande |
+| 09/2024 | **TDC São Paulo** 🇧🇷 | Palestra e workshop sobre modelagem NoSQL |
+| 11/2025 | **Microsoft Ignite**, San Francisco 🇺🇸 | Primeira feira como parte do time RavenDB |
+| 05/2026 | **TechEx North America**, San Jose 🇺🇸 | Demos ao vivo no estande da RavenDB |
 
 - 🎥 [**NoSQL: um pequeno passo na modelagem, um grande salto em eficiência**](https://www.youtube.com/watch?v=6wBQ2GiSmv8) · TDC São Paulo 2024
 - 🎥 [**The Power of RavenDB: NoSQL, Vector Database, Generative AI e AI Agents**](https://www.youtube.com/watch?v=-d7VeJ-Cqoo) · GDG Maringá
@@ -134,27 +151,14 @@ Bibliotecas comuns, acesso a dados e adaptadores prontos para o dia a dia de que
 
 ---
 
-## ✍️ Sobre o que eu escrevo
-
-| Tema | Artigo |
-|---|---|
-| 🤖 Legado + IA | [Ninguém te disse que dá pra ter IA sem migrar seu banco de dados](https://www.linkedin.com/pulse/ningu%C3%A9m-te-disse-que-d%C3%A1-pra-ter-ia-sem-migrar-seu-de-resende-tavares-jrzxf/) |
-| 🔎 RavenDB + IA | [RavenDB + AI: segmentação unificada em tempo real](https://www.linkedin.com/pulse/ravendb-ai-segmenta%C3%A7%C3%A3o-unificada-em-tempo-real-e-por-resende-tavares-r7pnf/) |
-| 📈 Escala | [Lições de quem processa 4% do PIB](https://www.linkedin.com/pulse/li%C3%A7%C3%B5es-de-quem-processa-4-do-pib-por-que-agilidade-%C3%A9-resende-tavares-4slnf/) |
-| 🧩 Arquitetura | [Quando simplificar exige coragem: o preço oculto da complexidade](https://www.linkedin.com/pulse/quando-simplificar-exige-coragem-o-pre%C3%A7o-oculto-das-resende-tavares-kyehf/) |
-| 💻 C# na prática | [Pare de usar class para tudo no C#](https://www.linkedin.com/pulse/pare-de-usar-class-para-tudo-c-um-guia-simples-e-que-resende-tavares-tmg4f/) |
-| 🧭 Manifesto | [Por quê falo tanto sobre RavenDB](https://www.linkedin.com/pulse/por-qu%C3%AA-falo-tanto-sobre-ravendb-lucas-resende-tavares-96yef/) |
-
----
-
 ## 🧭 Em que eu acredito
 
 > **Quase toda conta cara de tecnologia é conta de complexidade.**
 
-- 🪶 **Simplificar exige coragem.** Cada ferramenta a mais tem um custo que não aparece na fatura.
-- 💼 **Software é investimento, não caneca.** Ele precisa durar, e a curva de manutenção importa mais que a lista de funções.
-- 🧮 **Número antes de adjetivo.** Se não dá para medir ou conferir, não entra na conversa.
-- 🤝 **IA a favor, não no lugar.** Ela executa; a decisão e a responsabilidade continuam com a gente.
+- 🪶 **Simplificar exige coragem.** Cada ferramenta a mais tem um custo que não aparece na fatura: time refém e integrações frágeis. [Escrevi sobre isso](https://www.linkedin.com/pulse/quando-simplificar-exige-coragem-o-pre%C3%A7o-oculto-das-resende-tavares-kyehf/).
+- 💼 **Software é investimento.** Ele precisa durar, e no longo prazo pesa mais a manutenção do que a lista de funções.
+- 🧮 **Número antes de adjetivo.** Se não dá para medir ou conferir, não entra na conversa, como na tabela lá em cima.
+- 🤝 **IA a favor, não no lugar.** Ela executa; a decisão e a responsabilidade continuam com a gente. É o que tento mostrar no [`ravendb-cdc-demo`](https://github.com/leadsoftlucas/ravendb-cdc-demo).
 
 ---
 
@@ -162,7 +166,7 @@ Bibliotecas comuns, acesso a dados e adaptadores prontos para o dia a dia de que
 
 ```mermaid
 timeline
-    title De uma tarde de ASP.NET a time global
+    title De um curso de ASP.NET ao time da RavenDB
     2007 : Começo a programar (curso de ASP.NET e primeiro site)
     2009 : Primeiro estágio, primeiro trabalho formal
     2018 : Aprendo RavenDB do zero e entrego o PetraSync em 45 dias
@@ -177,7 +181,7 @@ timeline
 
 ## 🍺 Fora do código
 
-Escalo, faço trilhas, ouço rock e metal, escrevo ficção científica e tenho uma **Belina 1984 que virou beer truck**: a [**Choppellina**](https://choppellina.com.br) 🚐🍻. Se um dia nos encontrarmos num evento, pergunte pela Belina.
+Escalo, faço trilhas, ouço rock e metal, escrevo ficção científica e tenho uma **Belina 1984 que virou beer truck**: a [**Choppellina**](https://choppellina.com.br) 🚐🍻. Minha música favorita é *The Raven Child*, do Avantasia, e sim, um corvo no meu caminho até o RavenDB é coincidência demais para ser só coincidência 🐦‍⬛. Se um dia nos encontrarmos num evento, pergunte pela Belina.
 
 ---
 
@@ -206,17 +210,17 @@ Escalo, faço trilhas, ouço rock e metal, escrevo ficção científica e tenho 
 
 <br>
 
-### 👋 Hi, I'm Lucas
+### 👋🐦‍⬛ Hi, I'm Lucas
 
 > [!IMPORTANT]
-> **In one sentence:** I help companies **adopt RavenDB safely**. I evaluate your case, prove it in code and, when it makes sense, connect you with the team. I've turned hours-long reports into seconds and added AI to legacy systems **without migrating the database**.
+> **In one sentence:** I'm the engineer inside RavenDB who helps Brazilian teams find out whether RavenDB solves their problem, **proves it in code** and supports the adoption. If it doesn't fit, I'll say so.
 
 `.NET` · `C#` · `RavenDB` · `SQL Server` · `AWS` · `Azure` · `Google` · `TypeScript` · `React`
 
-I'm a **Sales Engineer and Solutions Architect at [RavenDB](https://ravendb.net)** and the database's bridge to Brazil. I've been programming since **2007**, professionally since **2009**, and have designed software exclusively on **RavenDB since 2018**. I founded and led **LeadSoft** (2018–2025), a Curitiba software house and official RavenDB partner in Brazil. Today I help teams **decide, adopt and scale** on RavenDB.
+I'm a **Sales Engineer and Solutions Architect at [RavenDB](https://ravendb.net)**. I've been programming since **2007**, professionally since **2009**, and have designed software exclusively on **RavenDB since 2018**. I founded and led **LeadSoft** (2018–2025), a Curitiba software house and official RavenDB partner in Brazil. In 2025 I moved to the side that builds the database.
 
 > [!NOTE]
-> I don't advocate for RavenDB because I work there. I work there because I chose it, for almost a decade, on real production problems. And when RavenDB isn't the answer, I'll say so.
+> I don't advocate for RavenDB because I work there. I work there because I chose it, on real production problems, seven years before they hired me. And when RavenDB isn't the answer, I'll say so.
 
 ### 🧭 How I can help
 
@@ -224,17 +228,19 @@ I'm a **Sales Engineer and Solutions Architect at [RavenDB](https://ravendb.net)
 - 🧱 **Data modeling from the business**: documents, indexes and performance in production
 - 🔄 **Legacy migration**: relational or other NoSQL to documents, with **CDC and ETL**, while the current system stays up
 - 🤖 **AI over your data**: full-text and **vector search**, embeddings and agents in the same data layer
-- 🌉 **A bridge to the RavenDB team**: Portuguese or English, in your time zone
+- 🇧🇷 **Portuguese or English, in your time zone**: your case reaches RavenDB's engineers and, when it's commercial, the sales team
 
 ### 🧾 Don't take my word for it
 
-| Case | Before → After |
-|---|---|
-| Critical procedures | **4–8 h → 40 s** (logical restructuring, no model change, no new indexes) |
-| Automotive DaaS | **1.8 min → 600 ms** (remodeled on RavenDB with Full-Text Search, auth included) |
-| Goal forecasting report | **≈ 4 h → ≈ 30 s** |
-| PetraSync (US client) | **Critical system delivered in 45 days**: the system was in bad shape and the client asked for 30; I wrote the assessment, proposed 45 with the architecture rebuilt as documents, learned RavenDB from scratch and delivered on the agreed day |
-| Delphi → .NET (Agrotis) | **Whole team trained in ≈ 6 months** |
+Not every gain below came from RavenDB: part of it is well-tuned SQL Server. That matters, because someone who has fixed slowness in relational databases can tell a query problem from a database problem.
+
+| Case | Before → After | Tech |
+|---|---|---|
+| Technical recommendation query (DaaS, automotive) | **1.8 min → 600 ms**: remodeled with Full-Text Search, auth included | RavenDB |
+| PetraSync (US client) | **Critical system delivered in 45 days**: the system was in bad shape and the client asked for 30; I wrote the assessment, proposed 45 with the architecture rebuilt as documents, learned RavenDB from scratch and delivered on the agreed day | RavenDB, .NET |
+| Critical procedures | **4–8 h → 40 s**: logical restructuring, no model change, no new indexes | SQL Server |
+| Goal forecasting report | **≈ 4 h → ≈ 30 s**: new query strategy | SQL Server |
+| Delphi → .NET (Agrotis) | **Whole team trained in ≈ 6 months** | .NET, SAP |
 
 ### 🛠️ Code you can run
 
@@ -246,21 +252,28 @@ I'm a **Sales Engineer and Solutions Architect at [RavenDB](https://ravendb.net)
 - 🏢 [**LeadSoft organization**](https://github.com/LeadSoft-Solucoes-Web): most of my open source lives here, mainly .NET adapters for AWS, Azure, Google and Brazilian public APIs
 - 📦 **17 open-source .NET packages**, **200,000+ downloads**: [NuGet profile](https://www.nuget.org/profiles/lucastavares)
 
-### 🎤 Stages and videos
+### 🎤 Events, talks and videos
 
-Developer Week (San Francisco, 2024) · TDC São Paulo (2024) · Microsoft Ignite (San Francisco, 2025) · TechEx North America (San Jose, 2026)
+Developer Week (San Francisco, 2024, met the RavenDB team) · TDC São Paulo (2024, talk and workshop) · Microsoft Ignite (San Francisco, 2025) · TechEx North America (San Jose, 2026, live demos at the RavenDB booth)
 
 - 🎥 [5 reasons to use RavenDB as THE database of your product](https://www.youtube.com/watch?v=u3ePP_5KBT8) (English)
 - 🎥 [The Power of RavenDB: NoSQL, Vector Database, Generative AI and AI Agents](https://www.youtube.com/watch?v=-d7VeJ-Cqoo) (Portuguese)
 - 🎥 [RavenDB Playground: test performance without installing anything](https://www.youtube.com/watch?v=Z7dCb-jei80) (Portuguese)
 
-### ✍️ Writing
+### ✍️ What I argue in writing
 
-Articles on legacy + AI, vector search, scale, architecture and C#, published on [LinkedIn](https://www.linkedin.com/in/lucasrtavares/recent-activity/articles/) (in Portuguese).
+Articles on [LinkedIn](https://www.linkedin.com/in/lucasrtavares/recent-activity/articles/), in Portuguese, for developers and decision makers. The thread through all of them: *almost every expensive technology bill is a complexity bill.*
+
+- 🤖 **You can have AI without migrating your database**: AI, smart search and an agent on top of a legacy SQL Server through RavenDB CDC, without touching the original system. [Open demo](https://github.com/leadsoftlucas/ravendb-cdc-demo)
+- 🔎 **RavenDB + AI, unified segmentation in real time**: documents, text and vector search in one query instead of three products
+- 📈 **Lessons from processing 4% of GDP**: at scale, agility is what separates the system that holds from the one that stalls
+- 🧩 **When simplifying takes courage**: the hidden price of complexity
+- 💻 **Stop using class for everything in C#**: when `class`, `struct` and `record` really change allocation and performance
+- 🧭 **Why I talk so much about RavenDB**: why I left relational out of conviction, not fashion
 
 ### 🍺 Off the keyboard
 
-I climb, hike, listen to rock and metal, write science fiction and run a 1984 Belina turned beer truck: [**Choppellina**](https://choppellina.com.br).
+I climb, hike, listen to rock and metal, write science fiction and run a 1984 Belina turned beer truck: [**Choppellina**](https://choppellina.com.br). My favorite song is *The Raven Child* by Avantasia, so a raven on my way to RavenDB is too much of a coincidence to be just a coincidence 🐦‍⬛.
 
 ### 📬 Reach me
 
