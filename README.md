@@ -5,7 +5,7 @@
 <br>
 
 ### Sales Engineer & Arquiteto de Soluções na [RavenDB](https://ravendb.net)
-**Ajudo times brasileiros a avaliar, provar e adotar o RavenDB**
+**Ajudo times do mundo todo a avaliar, provar e adotar o RavenDB**
 
 *Primeiro o dado, depois o código.*
 
@@ -22,10 +22,10 @@
 
 ---
 
-## 👋🐦‍⬛ Oi, eu sou o Lucas
+## 🐦‍⬛ Oi, eu sou o Lucas
 
 > [!IMPORTANT]
-> **Em uma frase:** sou o engenheiro que, dentro da RavenDB, ajuda times brasileiros a descobrir se o RavenDB resolve o problema deles, **prova isso em código** e acompanha a adoção. Se não resolver, eu digo.
+> **Em uma frase:** sou o engenheiro que, dentro da RavenDB, ajuda times a descobrir se o RavenDB resolve o problema deles, **prova isso em código** e acompanha a adoção. Atendo clientes do mundo todo, com foco nas Américas e também na Europa e na Oceania. Se não resolver, eu digo.
 
 `.NET` · `C#` · `RavenDB` · `SQL Server` · `AWS` · `Azure` · `Google` · `TypeScript` · `React`
 
@@ -44,7 +44,7 @@ Programo desde **2007**, profissionalmente desde **2009**, e desde **2018** só 
 | 🧱 **Modelagem a partir do negócio** | Documentos, índices e performance em produção: modelar pelo domínio, não pela tabela |
 | 🔄 **Migração de legado** | Do relacional (ou outro NoSQL) para documentos, com **CDC e ETL**, com o sistema atual de pé |
 | 🤖 **IA sobre os seus dados** | Busca textual e **vetorial**, embeddings e agentes na mesma camada de dados, sem abrir mais um produto |
-| 🇧🇷 **Português, no seu fuso** | Conversa direta com quem constrói o RavenDB: o seu caso chega à engenharia e, quando é comercial, ao time de vendas |
+| 🌎 **Atendimento global** | Foco nas Américas, e também Europa e Oceania, em português ou inglês. O seu caso chega direto à engenharia do RavenDB e, quando é comercial, ao time de vendas |
 
 ---
 
@@ -213,7 +213,7 @@ Escalo, faço trilhas, ouço rock e metal, escrevo ficção científica e tenho 
 ### 👋🐦‍⬛ Hi, I'm Lucas
 
 > [!IMPORTANT]
-> **In one sentence:** I'm the engineer inside RavenDB who helps Brazilian teams find out whether RavenDB solves their problem, **proves it in code** and supports the adoption. If it doesn't fit, I'll say so.
+> **In one sentence:** I'm the engineer inside RavenDB who helps teams find out whether RavenDB solves their problem, **proves it in code** and supports the adoption. I work with customers worldwide, focused on the Americas and also covering Europe and Oceania. If it doesn't fit, I'll say so.
 
 `.NET` · `C#` · `RavenDB` · `SQL Server` · `AWS` · `Azure` · `Google` · `TypeScript` · `React`
 
@@ -228,7 +228,7 @@ I'm a **Sales Engineer and Solutions Architect at [RavenDB](https://ravendb.net)
 - 🧱 **Data modeling from the business**: documents, indexes and performance in production
 - 🔄 **Legacy migration**: relational or other NoSQL to documents, with **CDC and ETL**, while the current system stays up
 - 🤖 **AI over your data**: full-text and **vector search**, embeddings and agents in the same data layer
-- 🇧🇷 **Portuguese or English, in your time zone**: your case reaches RavenDB's engineers and, when it's commercial, the sales team
+- 🌎 **Global coverage**: focused on the Americas, also Europe and Oceania, in Portuguese or English. Your case reaches RavenDB's engineers directly and, when it's commercial, the sales team
 
 ### 🧾 Don't take my word for it
 
