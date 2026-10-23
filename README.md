@@ -29,7 +29,11 @@
 
 `.NET` · `C#` · `RavenDB` · `SQL Server` · `AWS` · `Azure` · `Google` · `TypeScript` · `React`
 
-Programo desde **2007**, profissionalmente desde **2009**, e desde **2018** só projeto software com **RavenDB**. Fundei e liderei a **LeadSoft** (2018–2025), software house de Curitiba e parceira oficial do RavenDB no Brasil. Em 2025 passei para o lado de quem fabrica o banco, como **Sales Engineer e Arquiteto de Soluções**.
+Sou mineiro, uai: nasci em **Belo Horizonte (MG)** 🔺 e moro em **Curitiba** desde 2015. Comecei a programar em **2007**, escrevendo no Bloco de Notas o site da empresa do meu pai, e profissionalmente em **2009**.
+
+Em 2012 perguntei a um professor por que não dava para guardar o objeto no banco do jeito que ele é, sem virar tabelas. A resposta foi honesta: ainda não existia nada concreto no mercado. Seis anos depois, em 2018, um cliente queria um sistema em 30 dias, com um banco do qual eu nunca tinha ouvido falar: o **RavenDB**. Pedi 45 dias, refiz tudo em documentos e entreguei no prazo combinado. Daquele dia em diante, **tudo o que projetei foi em RavenDB**.
+
+Fundei e liderei a **[LeadSoft](https://leadsoft.inf.br)** (2018–2025), software house de Curitiba e parceira oficial do RavenDB no Brasil. Em 2025 passei para o lado de quem fabrica o banco, como **Sales Engineer e Arquiteto de Soluções**.
 
 > [!NOTE]
 > Não defendo o RavenDB porque trabalho lá. Trabalho lá porque o escolhi, em problemas reais de produção, sete anos antes de ser contratado. E quando o RavenDB não resolve, eu digo.
@@ -181,7 +185,7 @@ timeline
 
 ## 🍺 Fora do código
 
-Escalo, faço trilhas, ouço rock e metal, escrevo ficção científica e tenho uma **Belina 1984 que virou beer truck**: a [**Choppellina**](https://choppellina.com.br) 🚐🍻. Minha música favorita é *The Raven Child*, do Avantasia, e sim, um corvo no meu caminho até o RavenDB é coincidência demais para ser só coincidência 🐦‍⬛. Se um dia nos encontrarmos num evento, pergunte pela Belina.
+Escalo, faço trilhas, ouço rock e metal, escrevo ficção científica e tenho uma **Belina 1984 que virou beer truck**: a [**Choppellina**](https://choppellina.com.br) 🚐🍻. Minha música favorita é [*The Raven Child*, do Avantasia](https://open.spotify.com/intl-pt/track/76zg1a9DvGpEHVVQh7Yuv1), e sim, um corvo no meu caminho até o RavenDB é coincidência demais para ser só coincidência 🐦‍⬛. Se um dia nos encontrarmos num evento, pergunte pela Belina.
 
 ---
 
@@ -197,7 +201,7 @@ Escalo, faço trilhas, ouço rock e metal, escrevo ficção científica e tenho 
 | 💼 **LinkedIn** | [in/lucasrtavares](https://www.linkedin.com/in/lucasrtavares/) |
 | 🎬 **YouTube** | [@LucasResendeTavares](https://www.youtube.com/@LucasResendeTavares) |
 | 📦 **NuGet** | [lucastavares](https://www.nuget.org/profiles/lucastavares) |
-| 📍 **Base** | Curitiba, Brasil · português e inglês |
+| 📍 **Base** | Curitiba, Brasil (mineiro de Belo Horizonte 🔺) · português e inglês |
 
 <sub>Este perfil é pessoal e **não** é um canal oficial da RavenDB.</sub>
 
@@ -217,7 +221,11 @@ Escalo, faço trilhas, ouço rock e metal, escrevo ficção científica e tenho 
 
 `.NET` · `C#` · `RavenDB` · `SQL Server` · `AWS` · `Azure` · `Google` · `TypeScript` · `React`
 
-I'm a **Sales Engineer and Solutions Architect at [RavenDB](https://ravendb.net)**. I've been programming since **2007**, professionally since **2009**, and have designed software exclusively on **RavenDB since 2018**. I founded and led **LeadSoft** (2018–2025), a Curitiba software house and official RavenDB partner in Brazil. In 2025 I moved to the side that builds the database.
+I'm a **Sales Engineer and Solutions Architect at [RavenDB](https://ravendb.net)**, born in **Belo Horizonte, Minas Gerais** 🔺 and living in **Curitiba** since 2015. I started programming in **2007**, writing my father's company website in Notepad, and professionally in **2009**.
+
+In 2012 I asked a professor why we couldn't store an object in the database as it is, without flattening it into tables. The honest answer: nothing solid existed on the market yet. Six years later, in 2018, a client wanted a system in 30 days, on a database I had never heard of: **RavenDB**. I asked for 45 days, rebuilt everything as documents and delivered on the agreed day. From that day on, **everything I designed was on RavenDB**.
+
+I founded and led **[LeadSoft](https://leadsoft.inf.br)** (2018–2025), a Curitiba software house and official RavenDB partner in Brazil. In 2025 I moved to the side that builds the database.
 
 > [!NOTE]
 > I don't advocate for RavenDB because I work there. I work there because I chose it, on real production problems, seven years before they hired me. And when RavenDB isn't the answer, I'll say so.
@@ -273,7 +281,7 @@ Articles on [LinkedIn](https://www.linkedin.com/in/lucasrtavares/recent-activity
 
 ### 🍺 Off the keyboard
 
-I climb, hike, listen to rock and metal, write science fiction and run a 1984 Belina turned beer truck: [**Choppellina**](https://choppellina.com.br). My favorite song is *The Raven Child* by Avantasia, so a raven on my way to RavenDB is too much of a coincidence to be just a coincidence 🐦‍⬛.
+I climb, hike, listen to rock and metal, write science fiction and run a 1984 Belina turned beer truck: [**Choppellina**](https://choppellina.com.br). My favorite song is [*The Raven Child* by Avantasia](https://open.spotify.com/track/76zg1a9DvGpEHVVQh7Yuv1), so a raven on my way to RavenDB is too much of a coincidence to be just a coincidence 🐦‍⬛.
 
 ### 📬 Reach me
 
