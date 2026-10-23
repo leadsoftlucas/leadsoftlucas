@@ -31,7 +31,9 @@
 
 Sou mineiro, uai: nasci em **Belo Horizonte (MG)** 🔺 e moro em **Curitiba** desde 2015. Comecei a programar em **2007**, escrevendo no Bloco de Notas o site da empresa do meu pai, e profissionalmente em **2009**.
 
-Em 2012 perguntei a um professor por que não dava para guardar o objeto no banco do jeito que ele é, sem virar tabelas. A resposta foi honesta: ainda não existia nada concreto no mercado. Seis anos depois, em 2018, um cliente queria um sistema em 30 dias, com um banco do qual eu nunca tinha ouvido falar: o **RavenDB**. Pedi 45 dias, refiz tudo em documentos e entreguei no prazo combinado. Daquele dia em diante, **tudo o que projetei foi em RavenDB**.
+Em 2012, na faculdade, perguntei ao professor Gilberto por que não dava para guardar o objeto no banco do jeito que ele é, sem virar tabelas. Ainda não existia nada concreto no mercado. Em 2018, um cliente queria um sistema em 30 dias, com um banco do qual eu nunca tinha ouvido falar: o **RavenDB**. Pedi 45 dias, refiz tudo em documentos e entreguei no prazo combinado. Desde então, uso RavenDB sempre que a escolha é minha.
+
+Em 2024, na volta de um evento em um *rooftop* em San Francisco, onde conheci o time da RavenDB, a ficha caiu dentro do Uber: *"minha nossa, o RavenDB é o banco que perguntei para o Gilberto, que uso há tantos anos, e agora cá estou…"*. Uma pergunta de sala de aula, doze anos depois, no meu caminho. Chamo isso de **efeito borboleta**, e foi o tema da minha palestra na **FAE**, *LeadSoft: o efeito borboleta no empreender*, para que estudantes prestem atenção nas sutilezas da faculdade e no que elas podem causar lá na frente.
 
 Fundei e liderei a **[LeadSoft](https://leadsoft.inf.br)** (2018–2025), software house de Curitiba e parceira oficial do RavenDB no Brasil. Em 2025 passei para o lado de quem fabrica o banco, como **Sales Engineer e Arquiteto de Soluções**.
 
@@ -80,7 +82,7 @@ Nem todo ganho abaixo veio do RavenDB: parte é SQL Server bem trabalhado. Isso 
 
 | Repositório | O que é |
 |---|---|
-| [**ravendb-cdc-demo**](https://github.com/leadsoftlucas/ravendb-cdc-demo) | **IA sobre um SQL Server legado, sem migrar.** O CDC Sink do RavenDB espelha as mudanças em documentos, e em cima deles rodam busca vetorial e um agente de IA. Demo do meu artigo, com clínica veterinária e abrigo como domínio |
+| [**ravendb-cdc-demo**](https://github.com/leadsoftlucas/ravendb-cdc-demo) | **IA sobre um SQL Server legado, sem migrar.** O CDC Sink do RavenDB espelha as mudanças em documentos, e em cima deles rodam busca vetorial e um agente de IA. Demonstração do meu artigo, com clínica veterinária e abrigo como domínio |
 | [**ravendb-sales-assistant-demo**](https://github.com/leadsoftlucas/ravendb-sales-assistant-demo) | Assistente de vendas com os recursos de IA do RavenDB |
 | [**ravendb-demo**](https://github.com/leadsoftlucas/ravendb-demo) | Três recursos do RavenDB que o diferenciam de outros bancos |
 | [**lurta-clean-ravendb-api**](https://github.com/leadsoftlucas/lurta-clean-ravendb-api) | Web API REST em .NET 10 como modelo de **Clean Architecture com RavenDB** |
@@ -130,7 +132,7 @@ Escrevo no [LinkedIn](https://www.linkedin.com/in/lucasrtavares/recent-activity/
 
 | Artigo | A tese em uma linha |
 |---|---|
-| 🤖 [**Ninguém te disse que dá pra ter IA sem migrar seu banco de dados**](https://www.linkedin.com/pulse/ningu%C3%A9m-te-disse-que-d%C3%A1-pra-ter-ia-sem-migrar-seu-de-resende-tavares-jrzxf/) | Simulei um legado que ninguém pode desligar (SQL Server com anos de histórico) e liguei IA, busca inteligente e um agente em cima dele, ao vivo, com o CDC do RavenDB, sem tocar no que já existia. A [demo está aberta](https://github.com/leadsoftlucas/ravendb-cdc-demo) |
+| 🤖 [**Ninguém te disse que dá pra ter IA sem migrar seu banco de dados**](https://www.linkedin.com/pulse/ningu%C3%A9m-te-disse-que-d%C3%A1-pra-ter-ia-sem-migrar-seu-de-resende-tavares-jrzxf/) | Simulei um legado que ninguém pode desligar (SQL Server com anos de histórico) e liguei IA, busca inteligente e um agente em cima dele, ao vivo, com o CDC do RavenDB, sem tocar no que já existia. A [demonstração está aberta](https://github.com/leadsoftlucas/ravendb-cdc-demo) |
 | 🔎 [**RavenDB + AI: segmentação unificada em tempo real**](https://www.linkedin.com/pulse/ravendb-ai-segmenta%C3%A7%C3%A3o-unificada-em-tempo-real-e-por-resende-tavares-r7pnf/) | Documentos, busca textual e busca vetorial na mesma consulta. Manter banco, motor de busca e vetor em três produtos custa caro |
 | 📈 [**Lições de quem processa 4% do PIB**](https://www.linkedin.com/pulse/li%C3%A7%C3%B5es-de-quem-processa-4-do-pib-por-que-agilidade-%C3%A9-resende-tavares-4slnf/) | Em escala onde indisponibilidade tem preço imediato, agilidade não é discurso: é o que separa o sistema que aguenta do que trava |
 | 🧩 [**Quando simplificar exige coragem: o preço oculto da complexidade**](https://www.linkedin.com/pulse/quando-simplificar-exige-coragem-o-pre%C3%A7o-oculto-das-resende-tavares-kyehf/) | Cada ferramenta a mais cobra um preço que não aparece na fatura: time refém, integrações frágeis. Simplificar é decisão técnica |
@@ -146,7 +148,9 @@ Escrevo no [LinkedIn](https://www.linkedin.com/in/lucasrtavares/recent-activity/
 | 02/2024 | **Developer Week**, San Francisco 🇺🇸 | Encontro com o time RavenDB |
 | 09/2024 | **TDC São Paulo** 🇧🇷 | Palestra e workshop sobre modelagem NoSQL |
 | 11/2025 | **Microsoft Ignite**, San Francisco 🇺🇸 | Primeira feira como parte do time RavenDB |
-| 05/2026 | **TechEx North America**, San Jose 🇺🇸 | Demos ao vivo no estande da RavenDB |
+| 05/2026 | **TechEx North America**, San Jose 🇺🇸 | Demonstrações ao vivo no estande da RavenDB |
+
+🎓 Também levei a minha história para estudantes na **FAE**, com a palestra *LeadSoft: o efeito borboleta no empreender*.
 
 - 🎥 [**NoSQL: um pequeno passo na modelagem, um grande salto em eficiência**](https://www.youtube.com/watch?v=6wBQ2GiSmv8) · TDC São Paulo 2024
 - 🎥 [**The Power of RavenDB: NoSQL, Vector Database, Generative AI e AI Agents**](https://www.youtube.com/watch?v=-d7VeJ-Cqoo) · GDG Maringá
@@ -223,7 +227,9 @@ Escalo, faço trilhas, ouço rock e metal, escrevo ficção científica e tenho 
 
 I'm a **Sales Engineer and Solutions Architect at [RavenDB](https://ravendb.net)**, born in **Belo Horizonte, Minas Gerais** 🔺 and living in **Curitiba** since 2015. I started programming in **2007**, writing my father's company website in Notepad, and professionally in **2009**.
 
-In 2012 I asked a professor why we couldn't store an object in the database as it is, without flattening it into tables. The honest answer: nothing solid existed on the market yet. Six years later, in 2018, a client wanted a system in 30 days, on a database I had never heard of: **RavenDB**. I asked for 45 days, rebuilt everything as documents and delivered on the agreed day. From that day on, **everything I designed was on RavenDB**.
+In 2012, in college, I asked my professor Gilberto why we couldn't store an object in the database as it is, without flattening it into tables. Nothing solid existed on the market yet. In 2018, a client wanted a system in 30 days, on a database I had never heard of: **RavenDB**. I asked for 45 days, rebuilt everything as documents and delivered on the agreed day. Since then, I use RavenDB whenever the choice is mine.
+
+In 2024, on the way back from a *rooftop* event in San Francisco where I met the RavenDB team, it hit me in the Uber: *"oh my, RavenDB is the database I asked Gilberto about, the one I've used for so many years, and here I am now…"*. A classroom question, twelve years later, on my path. I call it the **butterfly effect**, and it was the topic of my talk at **FAE**, *LeadSoft: the butterfly effect in entrepreneurship*, so that students pay attention to the subtleties of college and what they can cause down the road.
 
 I founded and led **[LeadSoft](https://leadsoft.inf.br)** (2018–2025), a Curitiba software house and official RavenDB partner in Brazil. In 2025 I moved to the side that builds the database.
 
@@ -262,7 +268,7 @@ Not every gain below came from RavenDB: part of it is well-tuned SQL Server. Tha
 
 ### 🎤 Events, talks and videos
 
-Developer Week (San Francisco, 2024, met the RavenDB team) · TDC São Paulo (2024, talk and workshop) · Microsoft Ignite (San Francisco, 2025) · TechEx North America (San Jose, 2026, live demos at the RavenDB booth)
+Developer Week (San Francisco, 2024, met the RavenDB team) · TDC São Paulo (2024, talk and workshop) · Microsoft Ignite (San Francisco, 2025) · TechEx North America (San Jose, 2026, live demos at the RavenDB booth) · FAE (talk for students: *LeadSoft: the butterfly effect in entrepreneurship*)
 
 - 🎥 [5 reasons to use RavenDB as THE database of your product](https://www.youtube.com/watch?v=u3ePP_5KBT8) (English)
 - 🎥 [The Power of RavenDB: NoSQL, Vector Database, Generative AI and AI Agents](https://www.youtube.com/watch?v=-d7VeJ-Cqoo) (Portuguese)
