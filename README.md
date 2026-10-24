@@ -33,7 +33,7 @@ Sou mineiro, uai: nasci em **Belo Horizonte (MG)** 🔺 e moro em **Curitiba** d
 
 Em 2012, na faculdade, perguntei ao professor Gilberto por que não dava para guardar o objeto no banco do jeito que ele é, sem virar tabelas. Ainda não existia nada concreto no mercado. Em 2018, um cliente queria um sistema em 30 dias, com um banco do qual eu nunca tinha ouvido falar: o **RavenDB**. Pedi 45 dias, refiz tudo em documentos e entreguei no prazo combinado. Desde então, uso RavenDB sempre que a escolha é minha.
 
-Em 2024, na volta de um evento em um *rooftop* em San Francisco, onde conheci o time da RavenDB, a ficha caiu dentro do Uber: *"minha nossa, o RavenDB é o banco que perguntei para o Gilberto, que uso há tantos anos, e agora cá estou…"*. Uma pergunta de sala de aula, doze anos depois, no meu caminho. Chamo isso de **efeito borboleta**, e foi o tema da minha palestra na **FAE**, *LeadSoft: o efeito borboleta no empreender*, para que estudantes prestem atenção nas sutilezas da faculdade e no que elas podem causar lá na frente.
+Em 2024, na volta de um evento em um *rooftop* em San Francisco, onde conheci o time da RavenDB, a ficha caiu dentro do Uber: *"minha nossa, o RavenDB é o banco que perguntei para o Gilberto, que uso há tantos anos, e agora cá estou…"*. Uma pergunta de sala de aula, doze anos depois, no meu caminho. Chamo isso de **efeito borboleta**, e foi o tema da minha palestra na **Semana do Empreendedor da FAE**, *O efeito borboleta no empreender*, para que estudantes prestem atenção nas sutilezas da faculdade e no que elas podem causar lá na frente.
 
 Fundei e liderei a **[LeadSoft](https://leadsoft.inf.br)** (2018–2025), software house de Curitiba e parceira oficial do RavenDB no Brasil. Em 2025 passei para o lado de quem fabrica o banco, como **Sales Engineer e Arquiteto de Soluções**.
 
@@ -70,6 +70,7 @@ Nem todo ganho abaixo veio do RavenDB: parte é SQL Server bem trabalhado. Isso 
 |---|---|---|---|
 | Consulta de recomendação técnica (DaaS, dados como serviço, setor automotivo) | **1,8 min → 600 ms** | RavenDB | Remodelagem com Full-Text Search. O tempo inclui a autenticação |
 | PetraSync (cliente nos EUA) | **Sistema crítico entregue em 45 dias** | RavenDB, .NET | Sistema em más condições, prazo pedido de 30 dias. Fiz o laudo, propus 45 com a arquitetura refeita em documentos, aprendi RavenDB do zero e entreguei no dia combinado |
+| Cliente RavenDB (entrevista com o CTO, [em vídeo](https://www.youtube.com/watch?v=fOh9h4nFNOk)) | **80% de ganho** no tempo de desenvolvimento e manutenção | RavenDB, Kafka | Uma NF-e exigia de 20 a 30 tabelas no modelo SQL. Carga retroativa de 38 milhões de registros em 10 horas |
 | Procedures críticas | **4–8 h → 40 s** | SQL Server | Reestruturação lógica com *table functions* e fim dos cursores, sem mudar a modelagem nem criar índices |
 | Relatório de previsão de metas | **≈ 4 h → ≈ 30 s** | SQL Server | Nova estratégia de consulta: o relatório deixou de ficar para o dia seguinte |
 | Delphi → .NET (Agrotis) | **Equipe treinada em ≈ 6 meses** | .NET, SAP | Transição de um time inteiro e integração com SAP |
@@ -83,7 +84,7 @@ Nem todo ganho abaixo veio do RavenDB: parte é SQL Server bem trabalhado. Isso 
 | Repositório | O que é |
 |---|---|
 | [**ravendb-cdc-demo**](https://github.com/leadsoftlucas/ravendb-cdc-demo) | **IA sobre um SQL Server legado, sem migrar.** O CDC Sink do RavenDB espelha as mudanças em documentos, e em cima deles rodam busca vetorial e um agente de IA. Demonstração do meu artigo, com clínica veterinária e abrigo como domínio |
-| [**ravendb-sales-assistant-demo**](https://github.com/leadsoftlucas/ravendb-sales-assistant-demo) | Assistente de vendas com os recursos de IA do RavenDB |
+| [**ravendb-sales-assistant-demo**](https://github.com/leadsoftlucas/ravendb-sales-assistant-demo) | API que demonstra a integração com a OpenAI e guarda o histórico da conversa no RavenDB. Eu a fiz sem saber que o RavenDB estava prestes a lançar o AI Agents |
 | [**ravendb-demo**](https://github.com/leadsoftlucas/ravendb-demo) | Três recursos do RavenDB que o diferenciam de outros bancos |
 | [**lurta-clean-ravendb-api**](https://github.com/leadsoftlucas/lurta-clean-ravendb-api) | Web API REST em .NET 10 como modelo de **Clean Architecture com RavenDB** |
 
@@ -146,12 +147,11 @@ Escrevo no [LinkedIn](https://www.linkedin.com/in/lucasrtavares/recent-activity/
 | Quando | Evento | Minha participação |
 |---|---|---|
 | 02/2024 | **Developer Week**, San Francisco 🇺🇸 | Encontro com o time RavenDB |
+| 03/2024 | **Castrol Turbo Mode ON**, Mogi das Cruzes 🇧🇷 | Palestra de pré-lançamento do app do Trocador Castrol, para os distribuidores da Castrol do Brasil |
 | 09/2024 | **TDC São Paulo** 🇧🇷 | Palestra e workshop sobre modelagem NoSQL |
+| 10/2024 | **Semana do Empreendedor da FAE**, Curitiba 🇧🇷 | Palestra *O efeito borboleta no empreender*, para estudantes |
 | 11/2025 | **Microsoft Ignite**, San Francisco 🇺🇸 | Primeira feira como parte do time RavenDB |
 | 05/2026 | **TechEx North America**, San Jose 🇺🇸 | Demonstrações ao vivo no estande da RavenDB |
-
-🎓 Também levei a minha história para estudantes na **FAE**, com a palestra *LeadSoft: o efeito borboleta no empreender*.
-
 - 🎥 [**NoSQL: um pequeno passo na modelagem, um grande salto em eficiência**](https://www.youtube.com/watch?v=6wBQ2GiSmv8) · TDC São Paulo 2024
 - 🎥 [**The Power of RavenDB: NoSQL, Vector Database, Generative AI e AI Agents**](https://www.youtube.com/watch?v=-d7VeJ-Cqoo) · GDG Maringá
 - 🎥 [**5 reasons to use RavenDB as THE database of your product**](https://www.youtube.com/watch?v=u3ePP_5KBT8) · em inglês
@@ -229,7 +229,7 @@ I'm a **Sales Engineer and Solutions Architect at [RavenDB](https://ravendb.net)
 
 In 2012, in college, I asked my professor Gilberto why we couldn't store an object in the database as it is, without flattening it into tables. Nothing solid existed on the market yet. In 2018, a client wanted a system in 30 days, on a database I had never heard of: **RavenDB**. I asked for 45 days, rebuilt everything as documents and delivered on the agreed day. Since then, I use RavenDB whenever the choice is mine.
 
-In 2024, on the way back from a *rooftop* event in San Francisco where I met the RavenDB team, it hit me in the Uber: *"oh my, RavenDB is the database I asked Gilberto about, the one I've used for so many years, and here I am now…"*. A classroom question, twelve years later, on my path. I call it the **butterfly effect**, and it was the topic of my talk at **FAE**, *LeadSoft: the butterfly effect in entrepreneurship*, so that students pay attention to the subtleties of college and what they can cause down the road.
+In 2024, on the way back from a *rooftop* event in San Francisco where I met the RavenDB team, it hit me in the Uber: *"oh my, RavenDB is the database I asked Gilberto about, the one I've used for so many years, and here I am now…"*. A classroom question, twelve years later, on my path. I call it the **butterfly effect**, and it was the topic of my talk at the **FAE Entrepreneur Week**, *The butterfly effect in entrepreneurship*, so that students pay attention to the subtleties of college and what they can cause down the road.
 
 I founded and led **[LeadSoft](https://leadsoft.inf.br)** (2018–2025), a Curitiba software house and official RavenDB partner in Brazil. In 2025 I moved to the side that builds the database.
 
@@ -252,6 +252,7 @@ Not every gain below came from RavenDB: part of it is well-tuned SQL Server. Tha
 |---|---|---|
 | Technical recommendation query (DaaS, automotive) | **1.8 min → 600 ms**: remodeled with Full-Text Search, auth included | RavenDB |
 | PetraSync (US client) | **Critical system delivered in 45 days**: the system was in bad shape and the client asked for 30; I wrote the assessment, proposed 45 with the architecture rebuilt as documents, learned RavenDB from scratch and delivered on the agreed day | RavenDB, .NET |
+| RavenDB customer (CTO interview, [on video](https://www.youtube.com/watch?v=fOh9h4nFNOk)) | **80% gain** in development and maintenance time: one invoice needed 20 to 30 tables in the SQL model; a retroactive load of 38 million records took 10 hours | RavenDB, Kafka |
 | Critical procedures | **4–8 h → 40 s**: logical restructuring, no model change, no new indexes | SQL Server |
 | Goal forecasting report | **≈ 4 h → ≈ 30 s**: new query strategy | SQL Server |
 | Delphi → .NET (Agrotis) | **Whole team trained in ≈ 6 months** | .NET, SAP |
@@ -259,7 +260,7 @@ Not every gain below came from RavenDB: part of it is well-tuned SQL Server. Tha
 ### 🛠️ Code you can run
 
 - [**ravendb-cdc-demo**](https://github.com/leadsoftlucas/ravendb-cdc-demo): AI over a legacy SQL Server without migrating it, using RavenDB's CDC Sink, vector search and an AI agent (English README included)
-- [**ravendb-sales-assistant-demo**](https://github.com/leadsoftlucas/ravendb-sales-assistant-demo): a sales assistant built with RavenDB's AI features
+- [**ravendb-sales-assistant-demo**](https://github.com/leadsoftlucas/ravendb-sales-assistant-demo): an API that demonstrates the OpenAI integration and stores the conversation history in RavenDB (I built it without knowing RavenDB was about to launch AI Agents)
 - [**ravendb-demo**](https://github.com/leadsoftlucas/ravendb-demo): three RavenDB features that set it apart from other databases
 - [**lurta-clean-ravendb-api**](https://github.com/leadsoftlucas/lurta-clean-ravendb-api): a .NET 10 REST API as a Clean Architecture template on RavenDB
 - [**TDC São Paulo 2024 workshops**](https://github.com/LeadSoft-Solucoes-Web/leadsoft-tdcsp2024-ravendb-datamodel) (data modeling and getting started)
@@ -268,7 +269,7 @@ Not every gain below came from RavenDB: part of it is well-tuned SQL Server. Tha
 
 ### 🎤 Events, talks and videos
 
-Developer Week (San Francisco, 2024, met the RavenDB team) · TDC São Paulo (2024, talk and workshop) · Microsoft Ignite (San Francisco, 2025) · TechEx North America (San Jose, 2026, live demos at the RavenDB booth) · FAE (talk for students: *LeadSoft: the butterfly effect in entrepreneurship*)
+Developer Week (San Francisco, 2024, met the RavenDB team) · Castrol Turbo Mode ON (Mogi das Cruzes, 2024, pre-launch talk for the Castrol app) · TDC São Paulo (2024, talk and workshop) · Microsoft Ignite (San Francisco, 2025) · TechEx North America (San Jose, 2026, live demos at the RavenDB booth) · FAE Entrepreneur Week (Curitiba, 2024, talk for students: *The butterfly effect in entrepreneurship*)
 
 - 🎥 [5 reasons to use RavenDB as THE database of your product](https://www.youtube.com/watch?v=u3ePP_5KBT8) (English)
 - 🎥 [The Power of RavenDB: NoSQL, Vector Database, Generative AI and AI Agents](https://www.youtube.com/watch?v=-d7VeJ-Cqoo) (Portuguese)
