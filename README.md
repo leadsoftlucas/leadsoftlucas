@@ -35,7 +35,7 @@ Em 2012, na faculdade, perguntei ao professor Gilberto por que não dava para gu
 
 Em 2024, na volta de um evento em um *rooftop* em San Francisco, onde conheci o time da RavenDB, a ficha caiu dentro do Uber: *"minha nossa, o RavenDB é o banco que perguntei para o Gilberto, que uso há tantos anos, e agora cá estou…"*. Uma pergunta de sala de aula, doze anos depois, no meu caminho. Chamo isso de **efeito borboleta**, e foi o tema da minha palestra na **Semana do Empreendedor da FAE**, *O efeito borboleta no empreender*, para que estudantes prestem atenção nas sutilezas da faculdade e no que elas podem causar lá na frente.
 
-Fundei e liderei a **[LeadSoft](https://leadsoft.inf.br)** (2018–2025), software house de Curitiba e parceira oficial do RavenDB no Brasil. Em 2025 passei para o lado de quem fabrica o banco, como **Sales Engineer e Arquiteto de Soluções**.
+Fundei e liderei a **[LeadSoft](https://leadsoft.inf.br)** (2018–2025), software house de Curitiba e parceira oficial do RavenDB no Brasil. Em maio de 2025, a RavenDB me chamou para uma conversa sobre a minha experiência como parceiro, e o David Baruc disse: *"um dia te trago para trabalhar com a gente."* Eu **recusei com um sorriso**, porque a LeadSoft ainda estava de pé e eu acreditava nela. Um mês depois, encerrei a empresa. Semanas depois, ele me chamou. O "teste" foram entrevistas gravadas e duas demonstrações abertas no GitHub, e em agosto de 2025 entrei no time como **Sales Engineer e Arquiteto de Soluções**.
 
 > [!NOTE]
 > Não defendo o RavenDB porque trabalho lá. Trabalho lá porque o escolhi, em problemas reais de produção, sete anos antes de ser contratado. E quando o RavenDB não resolve, eu digo.
@@ -231,7 +231,7 @@ In 2012, in college, I asked my professor Gilberto why we couldn't store an obje
 
 In 2024, on the way back from a *rooftop* event in San Francisco where I met the RavenDB team, it hit me in the Uber: *"oh my, RavenDB is the database I asked Gilberto about, the one I've used for so many years, and here I am now…"*. A classroom question, twelve years later, on my path. I call it the **butterfly effect**, and it was the topic of my talk at the **FAE Entrepreneur Week**, *The butterfly effect in entrepreneurship*, so that students pay attention to the subtleties of college and what they can cause down the road.
 
-I founded and led **[LeadSoft](https://leadsoft.inf.br)** (2018–2025), a Curitiba software house and official RavenDB partner in Brazil. In 2025 I moved to the side that builds the database.
+I founded and led **[LeadSoft](https://leadsoft.inf.br)** (2018–2025), a Curitiba software house and official RavenDB partner in Brazil. In May 2025, RavenDB invited me to talk about my experience as a partner, and David Baruc said: *"one day I'll bring you to work with us."* I **declined with a smile**, because LeadSoft was still standing and I believed in it. A month later, I closed the company. Weeks after that, he called me. The "test" was recorded interviews and two open demos on GitHub, and in August 2025 I joined the team as **Sales Engineer and Solutions Architect**.
 
 > [!NOTE]
 > I don't advocate for RavenDB because I work there. I work there because I chose it, on real production problems, seven years before they hired me. And when RavenDB isn't the answer, I'll say so.
